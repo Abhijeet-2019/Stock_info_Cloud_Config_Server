@@ -1,5 +1,5 @@
-  microservice:
-    clientBasicInfo:
-      message: I am called from Config Server for Client Basic Info
-    stockBasicInfo:
-      message: I am called from Config Server for Stock Basic Info   
+microservice:
+  clientBasicInfo:
+    message: I am called from Config Server for Client Basic Info
+  stockBasicInfo:
+    message: I am called from Config Server for Stock Basic Info
