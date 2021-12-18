@@ -3,7 +3,7 @@ microservice:
     message: I am called from Config Server for Client Basic Info edited Naming Server config..
   stockBasicInfo:
     message: I am called from Config Server for Stock Basic Info EDITED Naming Server config ..
-
+    transactionDetails: Newly added functionality for Stock Basic transction Details.. 
 eureka:
   client:
     register-with-eureka: true
