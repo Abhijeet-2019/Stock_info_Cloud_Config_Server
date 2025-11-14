@@ -1,14 +1,13 @@
-microservice:
-  clientBasicInfo:
-    message: I am called from Config Server for Client Basic Info edited Naming Server config..
-  stockBasicInfo:
-    message: I am called from Config Server for Stock Basic Info EDITED Naming Server config ..
-    transactionDetails: Newly added functionality for Stock Basic transction Details.. 
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-        defaultZone: http://localhost:8761/eureka/
-    instance:
-      hostname: localhost
+logging:
+  level:
+    root: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+common:
+  message: "This is shared config for all microservices"
+  welcomeMessage: "Hi Welcome"
