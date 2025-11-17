@@ -12,3 +12,10 @@ common:
   message: "This is shared config for all microservices"
   welcomeMessage: "Hi Welcome"
   bsePopulateStockURL: "https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_"
+
+spring:
+  kafka:
+    bootstrap-servers: "localhost:9092"
+    consumer.group-id : "stockDetail-group"
+    template:
+        stockDetail-topic : "stock-details-topic"
